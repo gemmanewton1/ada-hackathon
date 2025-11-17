@@ -10,7 +10,6 @@ const App = () => (
   <Router>
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <nav style={{ marginBottom: "2rem" }}>
           <Link to="/" style={{ margin: "0 10px", color: "#61dafb" }}>
             Home

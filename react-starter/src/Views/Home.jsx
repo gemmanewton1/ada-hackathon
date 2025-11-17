@@ -10,34 +10,62 @@ const Home = () => {
 
   return (
     <div>
-      <h1>🚀 Welcome to the WiT Hackathon Starter App</h1>
+      <h1>🚀 Welcome to the Ada Hackathon Starter App</h1>
 
       <Card title="Introduction">
         <p>
-          This is a demo React app designed to give you a helpful starting point for your Hackathon project. It comes with:
+          This is a demo Javascript React app designed to give you a helpful
+          starting point for your Hackathon project. It comes with:
         </p>
 
         <ul>
           <li>
-            A working connection to a <strong>Spring Boot</strong> backend
-          </li>
-          <li>
-            The backend is set up with <strong>MongoDB</strong> and exposes a
-            simple API
-          </li>
-          <li>
-            The frontend demonstrates basic <strong>CRUD operations</strong>
-            (excluding update)
+            A working connection to a <strong>Python</strong> backend
           </li>
           <li>A few simple, reusable React components</li>
           <li>A clean project setup to guide your development</li>
         </ul>
+      </Card>
 
+      <Card title="The Task!">
         <p>
-          You're free to use this app as a guide, starting point, or inspiration
-          - <strong>but you're not required to use it</strong>. Feel free to
-          explore, borrow bits, or build from scratch.
+          You are required to build a simple application of your choice. You may
+          use the existing <strong>Customers</strong> and{" "}
+          <strong>Products</strong> pages as references or guidance, but these
+          pages are optional and can be removed if you prefer. The focus is on
+          creating a working application that demonstrates your understanding of
+          building components, managing state, and implementing functionality.
         </p>
+        <p>
+          Requirements:
+          <ul>
+            <li>Create at least two functional pages/components.</li>
+            <li>Implement basic navigation between pages.</li>
+            <li>
+              Include some form of data handling (e.g., displaying a list,
+              adding items, or managing state).
+            </li>
+            <li>
+              Styling is optional, but your UI should be clear and usable.
+            </li>
+            <li>
+              You may use the existing Customers and Products pages as
+              templates, but they are not mandatory.
+            </li>
+          </ul>
+        </p>
+        <p>
+          Goal: Demonstrate your ability to build a small but complete
+          application from scratch, using Javascript, with functional
+          components, state management, and basic navigation.
+        </p>
+        <Button label="Show Alert" onClick={() => setShowAlert(true)} />
+        {showAlert && (
+          <Alert
+            type="success"
+            message="Congratulations! You clicked the button."
+          />
+        )}
       </Card>
 
       <Card title="Get Started">
