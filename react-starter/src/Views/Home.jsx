@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>🚀 Welcome to the Ada Hackathon Starter App</h1>
+      <h1>🚀 Welcome to the ADA Hackathon App</h1>
 
       <Card title="Introduction">
         <p>
@@ -22,7 +22,10 @@ const Home = () => {
           <li>
             A working connection to a <strong>Python</strong> backend
           </li>
-          <li>A few simple, reusable React components</li>
+          <li>
+            A few simple, reusable React components contained in the 'Components
+            file'. These can be imported and used across your pages!
+          </li>
           <li>A clean project setup to guide your development</li>
         </ul>
       </Card>
