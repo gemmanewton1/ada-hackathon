@@ -1,7 +1,6 @@
 ## 🚀 Welcome to the Ada Hackathon Repository!
 
-This repository contains multiple project starters you can explore and use freely.
-For the hackathon, your project will need three key components:
+This repository contains 2 project starters: Javascript React for frontend and Python for backend
 
 ### 🧩 Project Structure
 
@@ -13,7 +12,7 @@ For the hackathon, your project will need three key components:
 ### 🎯 Project Starters
 
 #### 🖥️ Frontend
-- React - good for interactive user interfaces (javascript, needs node.js installed)
+- Javascript React - good for interactive user interfaces (javascript, needs node.js installed)
 
 #### ⚙️ Backend
 - Python, FastAPI - Lightweight and fast (needs Python 3)
