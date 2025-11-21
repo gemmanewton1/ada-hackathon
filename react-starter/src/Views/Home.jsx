@@ -27,6 +27,10 @@ const Home = () => {
             file'. These can be imported and used across your pages!
           </li>
           <li>A clean project setup to guide your development</li>
+          <li>
+            Refer to the README files for how to run the react-starter and
+            python-starter code
+          </li>
         </ul>
       </Card>
 
